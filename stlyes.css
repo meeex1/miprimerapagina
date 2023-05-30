@@ -166,3 +166,7 @@ footer {
   min-height: 200px;
   text-align: center;
 }
+
+.greeting {
+  text-align: center;
+}
