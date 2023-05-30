@@ -141,9 +141,9 @@ p {
   }
 
   .imagenesflex > img {
-    width: 200px;
-    height: 300px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    max-width: 200px;
+    padding: 10px;
   }
 
 
@@ -155,7 +155,7 @@ main {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   z-index: -1;
   display: flex;
